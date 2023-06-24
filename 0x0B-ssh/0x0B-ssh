@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+ssh ubuntu@185.183.34.152
+mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys
+chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
+echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCSqB1hu0sw0XyyWxGCQcfh0KPHOuq945pRVV6KtilnSheByRcsLKAkH4wdVgh5l0QlOiiUIza6OQM9dWCxVtYBwsoUY3CN/J6fDQezc9s7G2tlkrkybRT4e8aYIA42BCe8dtIc3JlA+mwAZrhvnusjhhartdvETj/pE5UdcB7NosaubKWPN4xg/l3akrt8uj1Q/DaLXCzqp/0Up8OoXNVylOjDKFjNHPwO7bGZYk0KvnnB1ni8ur7ah25CeJON7tiKc2zy0iOGvt5LZA11G30j+OBxjlkk1XvMQ6ZLr5V2Gk+rmSvdTbOUOVvec+d5DEDwCHmBnxWHMVL69/85TJq1 rsa-key-20230624
