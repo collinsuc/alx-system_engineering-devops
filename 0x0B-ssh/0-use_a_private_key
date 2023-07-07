@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # a script to ssh to a server using private key
 
-ssh -i ~/.ssh/school ubuntu@185.183.34.152
+ssh -i ~/.ssh/school

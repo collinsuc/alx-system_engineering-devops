@@ -1,1 +1,1 @@
-SSH by Collins A
+ssh

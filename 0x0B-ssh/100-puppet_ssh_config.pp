@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+# To be able to use puppet to make changes to my ssh configuration file
 # sets up a client SSH configuration file so that we can connect to a server without using a password
 #include stdlib
 #file_line { 'Declare identity file':
@@ -12,8 +14,8 @@
 #  replace => true,
 #}
 
-# OR
 # client configuration file
+
 $file_content = file('/etc/ssh/ssh_config')
 $config = "${file_content}\
     IdentityFile ~/.ssh/school
